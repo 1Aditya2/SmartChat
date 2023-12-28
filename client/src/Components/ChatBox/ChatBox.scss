@@ -1,0 +1,36 @@
+.chat-setup {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5px;
+  font-weight: 500;
+
+  .chat-header {
+    width: 100%;
+    height: 72px;
+    background-color: #9ba3c7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    .selected-user {
+      gap: 15px;
+
+      .selected-img {
+        width: 60px;
+        height: 60px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+          border: 1px solid var(--btn);
+        }
+      }
+    }
+  }
+}

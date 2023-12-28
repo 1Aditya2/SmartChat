@@ -1,0 +1,39 @@
+.chat {
+  width: 100vw;
+  height: 100vh;
+  // border: 1px solid red;
+  color: var(--text);
+  .chat-container {
+    background-color: var(--prim);
+    width: 80%;
+    // height: 600px;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    .contacts {
+      width: 30%;
+    //   border: 1px solid red;
+    }
+    .chatter {
+      // width: auto;
+      width: 70%;
+      border: 1px solid #9ba3c7;
+      border-radius: 5px;
+      .welcome {
+        width: 100%;
+        height: 100%;
+        img {
+          width: 350px;
+        }
+
+        span {
+          color: var(--btn);
+        }
+      }
+     
+    }
+  }
+}
